@@ -19,8 +19,7 @@ memoria* criarMemoria(int t){
 }
 
 processo* criarProcesso(int base, int lim, int id){
-        processo *p = (processo*) malloc(sizeof(processo));                                                                  //um vetor dinâmico
-        p->regB = base; 
+        processo *p = (processo*) malloc(sizeof(processo));                                                                          p->regB = base; 
 		p->regL = lim;
 		p->id = id;
 		p->tam = lim-base;
